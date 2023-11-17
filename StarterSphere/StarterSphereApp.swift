@@ -11,7 +11,7 @@ import SwiftUI
 struct StarterSphereApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StaterSphereTabView()
         }
     }
 }
