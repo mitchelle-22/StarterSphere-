@@ -17,6 +17,7 @@
 		609CC9BE2B076F63008C618B /* StarterSphereListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609CC9BD2B076F63008C618B /* StarterSphereListView.swift */; };
 		609CC9C02B076FA0008C618B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609CC9BF2B076FA0008C618B /* ProfileView.swift */; };
 		609CC9C22B076FC0008C618B /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609CC9C12B076FC0008C618B /* OrderView.swift */; };
+		609CC9C42B077D62008C618B /* Starter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609CC9C32B077D61008C618B /* Starter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		609CC9BD2B076F63008C618B /* StarterSphereListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterSphereListView.swift; sourceTree = "<group>"; };
 		609CC9BF2B076FA0008C618B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		609CC9C12B076FC0008C618B /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		609CC9C32B077D61008C618B /* Starter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				609CC9992B076BA1008C618B /* Preview Content */,
 				609CC9BF2B076FA0008C618B /* ProfileView.swift */,
 				609CC9C12B076FC0008C618B /* OrderView.swift */,
+				609CC9C32B077D61008C618B /* Starter.swift */,
 			);
 			path = StarterSphere;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				609CC9C02B076FA0008C618B /* ProfileView.swift in Sources */,
+				609CC9C42B077D62008C618B /* Starter.swift in Sources */,
 				609CC9962B076B99008C618B /* StaterSphereTabView.swift in Sources */,
 				609CC9942B076B99008C618B /* StarterSphereApp.swift in Sources */,
 				609CC9BE2B076F63008C618B /* StarterSphereListView.swift in Sources */,
