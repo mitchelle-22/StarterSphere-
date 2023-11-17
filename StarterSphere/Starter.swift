@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct Starter: Decodable{
+struct Starter: Decodable, Identifiable{
     
     let id : Int
     let name : String

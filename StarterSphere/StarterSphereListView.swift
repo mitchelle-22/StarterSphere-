@@ -10,13 +10,17 @@ import SwiftUI
 struct StarterSphereListView: View {
     var body: some View {
         NavigationView{
-            Text("StarterSphere")
-                .navigationTitle("🥗 StarterSphere")
+            List(MockData.starters){
+                starter in
+                StarterListCell(starter: starter)
+                }
+            .navigationTitle("🥗 StarterSphere")
+            
+            }
+            
         }
-        .padding()
-        
     }
-}
+
 
 #Preview {
     StarterSphereListView()
